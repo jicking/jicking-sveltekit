@@ -1,11 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-
-<style lang="scss">
-	$fontFamily: Segoe UI;
-	$primaryColor: red;
-	h1 {
-		font-family: $fontFamily;
-		color: $primaryColor;
-	}
-</style>
+<svelte:head>
+	<title>Home</title>
+	<meta name="description" content="Svelte demo app" />
+</svelte:head>
+<section class="hero">HERO</section>
+<article class="content">
+	<h1>Content</h1>
+	<p>Lorem ipsum</p>
+	<button class="btn">Test Button</button>
+</article>

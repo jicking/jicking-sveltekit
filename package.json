@@ -1,6 +1,8 @@
 {
 	"name": "jicking-sveltekit",
 	"version": "0.0.1",
+	"author": "jicking",
+	"license": "MIT",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
